@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class UnionOfSortedArrays {
     public static void main(String[] args) {
-        int[] arr1 = {2, 3, 4, 5, 6};
-        int[] arr2 = {5, 5, 6, 7, 8};
+        int[] arr1 = {3,  4, 5, 6};
+        int[] arr2 = {4, 6, 6, 8, 9};
         int[] result = unionOfSortedArrays(arr1, arr2);
 
         System.out.println("Union of Arrays: " + Arrays.toString(result));
